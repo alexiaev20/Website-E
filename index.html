@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site- Ecommerce</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style-prefix.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="overlay" data-overlay></div>
+
+  <!--- HEADER-->
+
+  <header>
+    <div class="header-top">
+      <div class="container">
+        <ul class="header-social-container">
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+        <div class="header-alert-news">
+          <p>
+            <b>Frete Grátis</b>
+             Essa Semana, Pedidos acima de - $50
+          </p>
+        </div>
+
+        <div class="header-top-actions">
+          <select name="currency">
+            <option value="brl">BRL - R$</option>
+          </select>
+
+          <select name="language">
+            <option value="pt-br">Português (Brasil)</option>
+            <option value="en-US">English</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-main">
+      <div class="container">
+        <a href="#" class="header-logo">
+          <img src="./assets/images/logo/logo.svg" alt="Logo" width="120" height="36">
+        </a>
+
+         <!-- Barra de busca -->
+        <div class="header-search-container">
+          <input type="search" name="search" class="search-field" placeholder="Insira o nome do seu produto...">
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+        </div>
+
+        <div class="header-user-actions">
+          <button class="action-btn">
+            <ion-icon name="person-outline"></ion-icon>
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="heart-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="bag-handle-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+    <nav class="desktop-navigation-menu">
+      <div class="container">
+        <ul class="desktop-menu-category-list">
+          <li class="menu-category">
+            <a href="#" class="menu-title">Home</a>
+          </li>
+          <li class="menu-category">
+            <a href="#" class="menu-title">Categorias</a>
+            <div class="dropdown-panel">
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Masculino</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Formal</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Casual</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Esportivos</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Jaquetas</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Óculos de Sol</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/mens-banner.jpg" alt="img" width="250" height="119">
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="dropdown-panel-list">
+                <li class="menu-title">
+                  <a href="#">Feminino</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Formal</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Casual</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Perfumes</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Cosmeticos</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">bolsas</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/womens-banner.jpg" alt="img" width="250" height="119">
+                  </a>
+                </li>
+              </ul>
+
+            </div>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Masculino</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Camisa</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Bermudas & Jeans</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Sapatos</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Feminino</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Roupas</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Brincos</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Colares</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Maquiagem</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Joias</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Brincos</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">Aneis</a>
+              </li>
+
+            
+              <li class="dropdown-item">
+                <a href="#">Colares</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Pulseiras</a>
+              </li>
+
+            </ul>
+          </li>
+          <li class="menu-category">
+            <a href="#" class="menu-title">Ofertas</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+  <main>
+    <div class="banner">
+      <div class="container">
+        <div class="slider-container has-scrollbar">
+          <div class="slider-item">
+            <img src="./assets/images/banner-1.jpg" alt="promoção da moda feminina mais recente" class="banner-img">
+            <div class="banner-content">
+              <p class="banner-subtitle">>Itens em alta</p>
+              <h2 class="banner-title">promoção moda feminina mais recente</h2>
+              <p class="banner-text">
+                a partir de <b>R$ 29,99</b>."
+              </p>
+              <a href="#" class="banner-btn">Compre agora</a>
+            </div>
+          </div>
+
+          <div class="slider-item">
+            <img src="./assets/images/banner-2.jpg" alt="oculos moderno" class="banner-img">
+            <div class="banner-content">
+              <p class="banner-subtitle">Acessórios em alta</p>
+              <h2 class="banner-title">Óculos de sol modernos</h2>
+              <p class="banner-text">
+                A partir de R$ <b>15</b>,00
+              </p>
+              <a href="#" class="banner-btn">>Compre agora</a>
+            </div>
+          </div>
+
+          <div class="slider-item">
+            <img src="./assets/images/banner-3.jpg" alt="nova oferta" class="banner-img">
+            <div class="banner-content">
+              <p class="banner-subtitle">>Novas Ofertas</p>
+              <h2 class="banner-title">Nova promoção de moda para o verão</h2>
+              <p class="banner-text">
+                A partir de R$ <b>29</b>,99
+              </p>
+              <a href="#" class="banner-btn">Compre agora</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!--
+      - CATEGORY
+    -->
+
+    <div class="category">
+      <div class="container">
+        <div class="category-item-container has-scrollbar">
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/dress.svg" alt="Vestidos" width="30">
+            </div>
+
+            <div class="category-content-box">
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Vestidos</h3>
+                <p class="category-item-amount">(10)</p>
+              </div>
+              <a href="#" class="category-btn">Mostrar tudo</a>
+            </div>
+
+          </div>
+
+          <div class="category-item">
+            <div class="category-img-box">
+              <img src="./assets/images/icons/coat.svg" alt="RoupasdeInverno" width="30">
+            </div>
+
+            <div class="category-content-box">
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Roupas de Inverno</h3>
+                <p class="category-item-amount">(10)</p>
+              </div>
+              <a href="#" class="category-btn">Mostrar tudo</a>
+            </div>
+          </div>
+
+          <div class="category-item">
+            <div class="category-img-box">
+              <img src="./assets/images/icons/glasses.svg" alt="Óculos " width="30">
+            </div>
+
+            <div class="category-content-box">
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Óculos </h3>
+                <p class="category-item-amount">(5)</p>
+              </div>
+              <a href="#" class="category-btn">Mostrar tudo</a>
+            </div>
+          </div>
+
+          <div class="category-item">
+            <div class="category-img-box">
+              <img src="./assets/images/icons/shorts.svg" alt="shorts&jeans" width="30">
+            </div>
+
+            <div class="category-content-box">
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Shorts & jeans</h3>
+                <p class="category-item-amount">(10)</p>
+              </div>
+              <a href="#" class="category-btn">Mostrar tudo</a>
+            </div>
+          </div>
+
+          <div class="category-item">
+            <div class="category-img-box">
+              <img src="./assets/images/icons/tee.svg" alt="tshirt" width="30">
+            </div>
+
+            <div class="category-content-box">
+              <div class="category-content-flex">
+                <h3 class="category-item-title">T-shirts</h3>
+                <p class="category-item-amount">(10)</p>
+              </div>
+              <a href="#" class="category-btn">Mostrar tudo</a>
+            </div>
+          </div>
+
+          <div class="category-item">
+            <div class="category-img-box">
+              <img src="./assets/images/icons/jacket.svg" alt="jaquetas" width="30">
+            </div>
+
+            <div class="category-content-box">
+              <div class="category-content-flex">
+                <h3 class="category-item-title">jaquetas</h3>
+                <p class="category-item-amount">(5)</p>
+              </div>
+              <a href="#" class="category-btn">Mostrar tudo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--- PRODUTOS-->
+
+    <div class="product-container">
+      <div class="container">
+
+
+    <!--- SIDEBAR-->
+
+        <div class="sidebar  has-scrollbar" data-mobile-menu>
+
+          <div class="sidebar-category">
+
+            <div class="sidebar-top">
+              <h2 class="sidebar-title">Categorias</h2>
+
+              <button class="sidebar-close-btn" data-mobile-menu-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </div>
+
+            <ul class="sidebar-menu-category-list">
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/dress.svg" alt="Roupas" width="20" height="20"
+                      class="menu-title-img">
+
+                    <p class="menu-title">Roupas</p>
+                  </div>
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+                </button>
+
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/shoes.svg" alt=" Calçados" class="menu-title-img" width="20"
+                      height="20">
+
+                    <p class="menu-title"> Calçados</p>
+                  </div>
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+                </button>
+
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/Joias.svg" alt="Joias" class="menu-title-img" width="20"
+                      height="20">
+
+                    <p class="menu-title">Joias</p>
+                  </div>
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+                </button>
+
+            
+
+          </div>
+          <div class="product-showcase">
+            <h3 class="showcase-heading">Mais vendidos</h3>
+            <div class="showcase-wrapper">
+              <div class="showcase-container">
+                <div class="showcase">
+
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/2.jpg" alt="t-shirt Maculina" class="showcase-img"
+                      width="75" height="75">
+                  </a>
+
+                  <div class="showcase-content">
+
+                    <a href="#">
+                      <h4 class="showcase-title"> t-shirt Maculina </h4>
+                    </a>
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+
+                    <div class="price-box">
+                      <del>$29.99</del>
+                      <p class="price">$19.99</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase">
+
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/3.jpg" alt="t-shirt Feminina" class="showcase-img" width="75"
+                      height="75">
+                  </a>
+                  <div class="showcase-content">
+                    <a href="#">
+                      <h4 class="showcase-title">t-shirt Feminina</h4>
+                    </a>
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+
+                    <div class="price-box">
+                      <del>$29.99</del>
+                      <p class="price">$19.99</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="product-box">
+
+          <!--- PRODUTOS-->
+
+          <div class="product-minimal">
+            <div class="product-showcase">
+              <h2 class="title">Novidades</h2>
+              <div class="showcase-wrapper has-scrollbar">
+                <div class="showcase-container">
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/clothes-1.jpg" alt="camiseta de manga longa" width="70" class="showcase-img">
+                    </a>
+
+                    <div class="showcase-content">
+                      <a href="#">
+                        <h4 class="showcase-title">camiseta de manga longa</h4>
+                      </a>
+                      <a href="#" class="showcase-category">Roupas</a>
+                      <div class="price-box">
+                        <p class="price">R$ 29.99</p>
+                        <del>R$ 39,90</del>                       
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="showcase">
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/clothes-2.jpg" alt="Top rosa" class="showcase-img" width="70">
+                    </a>
+                
+                    <div class="showcase-content">
+                      <a href="#">
+                        <h4 class="showcase-title">Top rosa</h4>
+                      </a>
+                      <a href="#" class="showcase-category">Roupas</a>
+                      <div class="price-box">
+                        <p class="price">$10.99</p>
+                        <del>$19.99</del>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="showcase">
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/clothes-3.jpg" alt="Saia Midi" class="showcase-img"
+                        width="70">
+                    </a>
+                  
+                    <div class="showcase-content">
+                      <a href="#">
+                        <h4 class="showcase-title">Saia Midi</h4>
+                      </a>
+                      <a href="#" class="showcase-category">Roupas</a>
+                      <div class="price-box">
+                        <p class="price">$55.99</p>
+                        <del>$65.99</del>
+                      </div>
+                    </div>
+                  
+                  </div>
+
+                  <div class="showcase">
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/shirt-1.jpg" alt="Jaqueta de Fleece com Zíper" class="showcase-img"
+                        width="70">
+                    </a>
+                  
+                    <div class="showcase-content">
+                  
+                      <a href="#">
+                        <h4 class="showcase-title">Jaqueta de Fleece com Zíper</h4>
+                      </a>
+                  
+                      <a href="#" class="showcase-category">Roupas</a>
+                  
+                      <div class="price-box">
+                        <p class="price">$69.99</p>
+                        <del>$80.99</del>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="showcase-container">
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="product-showcase">    
+              <h2 class="title">Tendências</h2>
+              <div class="showcase-wrapper  has-scrollbar">          
+                <div class="showcase-container">           
+                  <div class="showcase">      
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/sports-1.jpg" alt="Tênis- Branco" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+                      <a href="#">
+                        <h4 class="showcase-title">Tênis de Corrida e Trekking - Branco</h4>
+                      </a>
+                      <a href="#" class="showcase-category">Esportivo</a>
+                      <div class="price-box">
+                        <p class="price">$99.99</p>
+                        <del>$149.99</del>
+                      </div>
+                    </div>            
+                  </div>
+            
+                  <div class="showcase">           
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/sports-2.jpg" alt="tênis- preto" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Tênis de trekking e corrida - preto</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Esportivo</a>
+                      <div class="price-box">
+                        <p class="price">$149.99</p>
+                        <del>$199.99</del>
+                      </div>
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">        
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/party-wear-1.jpg" alt="Tênis Sports Claw" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+                      <a href="#">
+                        <h4 class="showcase-title">Tênis Femininos Sports Claw</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Party wear</a>
+            
+                      <div class="price-box">
+                        <p class="price">$99.99</p>
+                        <del>$129.99</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/sports-3.jpg" alt="Tenis Caminhada" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+                      <a href="#">
+                        <h4 class="showcase-title">Tenis caminhadas</h4>
+                      </a>            
+                      <a href="#" class="showcase-category">Esportivo</a>            
+                      <div class="price-box">
+                        <p class="price">$89.99</p>
+                        <del>$99.99</del>
+                      </div>           
+                    </div>           
+                  </div>
+                </div>
+            
+                <div class="showcase-container">                
+                </div>           
+              </div>           
+            </div>
+
+            
+
+
+
+
+<!--
+  - TESTEMUNHOS, CTA & SERVIÇO
+-->
+
+<div>
+
+  <div class="container">
+
+    <div class="testimonials-box">
+
+      <!--
+        - TESTEMUNHOS
+      -->
+
+      <div class="testimonial">
+
+        <h2 class="title">Depoimentos</h2>
+
+        <div class="testimonial-card">
+
+          <img src="./assets/images/testimonial-1.jpg" alt="#" class="testimonial-banner" width="80" height="80">
+
+          <p class="testimonial-name"></p>
+
+          <p class="testimonial-title"></p>
+
+          <img src="./assets/images/icons/quotes.svg" alt="#" class="quotation-img" width="26">
+
+          <p class="testimonial-desc">
+            Lorem ipsum dolor sit amet consectetur Lorem ipsum
+            dolor dolor sit amet.
+          </p>
+
+        </div>
+
+      </div>
+
+      <!--
+        - CTA
+      -->
+
+      <div class="cta-container">
+
+        <img src="./assets/images/cta-banner.jpg" alt="coleção de verão" class="cta-banner">
+
+        <a href="#" class="cta-content">
+
+          <p class="discount">25% de Desconto</p>
+
+          <h2 class="cta-title">Coleção de Verão</h2>
+
+          <p class="cta-text">A partir de R$20</p>
+
+          <button class="cta-btn">Compre agora</button>
+
+        </a>
+
+      </div>
+
+      <!--
+        - SERVIÇO
+      -->
+
+      <div class="service">
+        <h2 class="title">Nossos Serviços</h2>
+        <div class="service-container">
+          <a href="#" class="service-item">
+            <div class="service-icon">
+              <ion-icon name="boat-outline"></ion-icon>
+            </div>
+            <div class="service-content">
+              <h3 class="service-title">Entrega Gratis</h3>
+              <p class="service-desc">Para pedidos acima de R$150</p>
+           </div>
+          </a>
+
+          <a href="#" class="service-item">         
+            <div class="service-icon">
+              <ion-icon name="rocket-outline"></ion-icon>
+            </div>
+            <div class="service-content">
+              <h3 class="service-title">Entrega no Dia Seguinte</h3>
+              <p class="service-desc">Apenas para pedidos no Reino Unido</p>         
+            </div>         
+          </a>
+
+          <a href="#" class="service-item">          
+            <div class="service-icon">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>          
+            <div class="service-content">         
+              <h3 class="service-title">Melhor Suporte Online</h3>
+              <p class="service-desc">Horário:9h - 18h</p>          
+            </div>
+          
+          </a>
+
+          <a href="#" class="service-item">
+          
+            <div class="service-icon">
+              <ion-icon name="arrow-undo-outline"></ion-icon>
+            </div>
+          
+            <div class="service-content">
+          
+              <h3 class="service-title">Política de Devolução</h3>
+              <p class="service-desc">Devolução Fácil e Gratuita</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</main>
+  <footer>
+    <div class="footer-category">
+      <div class="container">
+        <h2 class="footer-category-title">Diretório de Marcas</h2>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Moda:</h3>
+          <a href="#" class="footer-category-link">Camiseta</a>
+          <a href="#" class="footer-category-link">Camisas</a>
+          <a href="#" class="footer-category-link">Bermudas & Jeans</a>
+          <a href="#" class="footer-category-link">Jaqueta</a>
+          <a href="#" class="footer-category-link">Vestido </a>
+        </div>
+        
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Calçados:</h3>
+          <a href="#" class="footer-category-link">Esportivo</a>
+          <a href="#" class="footer-category-link">Formal</a>
+          <a href="#" class="footer-category-link">Botas</a>
+          <a href="#" class="footer-category-link">Casual</a>
+          <a href="#" class="footer-category-link">Sapatos Longos</a>
+        </div>
+        
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Joias:</h3>
+          <a href="#" class="footer-category-link">Colar</a>
+          <a href="#" class="footer-category-link">Brincos</a>
+          <a href="#" class="footer-category-link">Anéis </a>
+          <a href="#" class="footer-category-link">Pingentes</a>
+          <a href="#" class="footer-category-link">Cristal</a>
+          <a href="#" class="footer-category-link">Pulseiras</a>
+          <a href="#" class="footer-category-link">Corrente</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-nav">
+      <div class="container">
+        <ul class="footer-nav-list">
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Produtos</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Novos Produtos</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Melhores Vendas</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Fale Conosco</a>
+          </li> 
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Nossa Empresa</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Entrega</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Aviso Legal</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Termos e Condições</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Sobre Nós</a>
+          </li>
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+              <h2 class="nav-title">Serviços</h2>
+          </li>   
+          <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Novos Produtos</a>
+          </li>
+              
+          <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Melhores Vendas</a>
+          </li>
+              
+          <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">Fale Conosco</a>
+          </li>
+              
+      </ul>
+      
+
+      <ul class="footer-nav-list">
+
+        <li class="footer-nav-item">
+            <h2 class="nav-title">Contatos</h2>
+        </li>
+    
+        <li class="footer-nav-item flex">
+            <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+            </div>
+    
+            <address class="content">
+              Recife, Pernambuco (PE), 00000-000, Brasil
+          </address>
+          
+        </li>
+    
+        <li class="footer-nav-item flex">
+            <div class="icon-box">
+                <ion-icon name="call-outline"></ion-icon>
+            </div>
+    
+            <a href="tel:+607936-8058" class="footer-nav-link">(81) 00000-0000</a>
+        </li>
+    
+        <li class="footer-nav-item flex">
+            <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+            </div>
+    
+            <a href="mailto:example@gmail.com" class="footer-nav-link">exemplo@gmail.com</a>
+        </li>
+    
+    </ul>
+    
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Follow Us</h2>
+          </li>
+
+          <li>
+
+            <ul class="social-link">
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <img src="./assets/images/payment.png" alt="logo" class="payment-img">
+
+        <p class="copyright">
+          Copyright &copy; <a href="#"></a>. Todos os direitos reservados.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
